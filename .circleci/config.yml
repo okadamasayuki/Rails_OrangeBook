@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/ruby:2.5.3-node-browsers
+    - image: circleci/ruby:2.6.3-node-browsers
       environment:
         - DB_HOST: 127.0.0.1
         - RAILS_ENV: 'test'
